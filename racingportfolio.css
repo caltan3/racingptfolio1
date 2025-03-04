@@ -15,6 +15,26 @@ body {
     font-size: 18px;
 }
 
+/* Button styling */
+
+a {
+    color: #00bfff;
+}
+
+a.button {
+    display: inline-block;
+    padding: 1px 1px;
+    background-color: #00bfff;
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+a.button:hover {
+    background-color: #009acd;
+}
+
 h1, h2, h3 {
     font-family: 'Roboto', sans-serif;
     color: #fff;
@@ -98,6 +118,8 @@ header h1 {
     border-radius: 10px;
 }
 
+
+
 /* Image Styling under Racing Achievements */
 .racing-achievements-image {
     width: 100%;
@@ -110,6 +132,30 @@ header h1 {
     margin-right: auto;
 }
 
+.porsche1jpg {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto; /* Pushes the image to the right */
+    margin-right: 62%;
+}
+
+.gt31png {
+    width: 100%;
+    max-width: 400px;  /* Set max width to prevent it from being too large */
+    height: auto;
+    border-radius: 20px;
+    margin-top: -16.5rem;  /* Adds space between text and image */
+    display: block;
+    margin-left: 60%;
+    margin-right: auto;
+    
+}
+
+
 .kf1 {
     width: 100%;
     max-width: 400px;  /* Set max width to prevent it from being too large */
@@ -120,6 +166,30 @@ header h1 {
     margin-left: left;
     margin-right: auto;
 }
+
+.simrig1 {
+    width: 50%;
+    max-width: 400px;  /* Set max width to prevent it from being too large */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;  /* Adds space between text and image */
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+}
+
+.simrig2 {
+    width: 40%;
+    max-width: 400px;  /* Set max width to prevent it from being too large */
+    height: auto;
+    border-radius: 8px;
+    margin-top: -33.3rem;  /* Adds space between text and image */
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+}
+
+
 
 #racing {
     margin-bottom: 0;
@@ -147,3 +217,4 @@ footer p {
 html {
     scroll-behavior: smooth;
 }
+
