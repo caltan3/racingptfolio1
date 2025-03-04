@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #121212;
@@ -218,12 +219,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Disclaimer */
-header {
-    display: flex;
-    flex-direction: column; /* Stacks elements vertically */
-    align-items: center; /* Centers them horizontally */
-    text-align: center;
-}
+
+
 
 
