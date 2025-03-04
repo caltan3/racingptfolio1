@@ -101,23 +101,23 @@ header h1 {
 /* Image Styling under Racing Achievements */
 .racing-achievements-image {
     width: 100%;
-    max-width: 500px;  /* Set max width to prevent it from being too large */
+    max-width: 400px;  /* Set max width to prevent it from being too large */
     height: auto;
     border-radius: 8px;
     margin-top: 1rem;  /* Adds space between text and image */
     display: block;
-    margin-left: auto;
+    margin-left: left;
     margin-right: auto;
 }
 
 .kf1 {
     width: 100%;
-    max-width: 500px;  /* Set max width to prevent it from being too large */
+    max-width: 400px;  /* Set max width to prevent it from being too large */
     height: auto;
     border-radius: 8px;
     margin-top: 1rem;  /* Adds space between text and image */
     display: block;
-    margin-left: auto;
+    margin-left: left;
     margin-right: auto;
 }
 
