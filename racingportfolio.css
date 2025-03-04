@@ -218,3 +218,12 @@ html {
     scroll-behavior: smooth;
 }
 
+/* Disclaimer */
+header {
+    display: flex;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers them horizontally */
+    text-align: center;
+}
+
+
