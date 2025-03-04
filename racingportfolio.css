@@ -1,0 +1,152 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+header {
+    background-color: #1e1e1e;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start; /* Aligns the content to the left */
+    align-items: center; /* Centers the content vertically */
+    height: 200px; /* Adjust height as needed */
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FF6F00;
+    padding-left: 530px; /* Adjust this value to shift the name to the left */
+}
+
+/* Navigation Styling */
+#navbar {
+    background-color: #1a1a1a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 1rem;
+    text-align: center;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+#navbar a {
+    color: #d1d1d1;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin: 0 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #FF6F00;
+}
+
+#navbar.sticky {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Container & Section Styling */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.section {
+    margin-bottom: 3rem;
+    padding: 2rem;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    border-bottom: 4px solid #FF6F00; /* Increased the border thickness to 4px */
+    padding-bottom: 0.5rem;
+}
+
+/* Flexbox for side-by-side layout */
+.race, .about {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+/* Image Styling under Racing Achievements */
+.racing-achievements-image {
+    width: 100%;
+    max-width: 500px;  /* Set max width to prevent it from being too large */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;  /* Adds space between text and image */
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.kf1 {
+    width: 100%;
+    max-width: 500px;  /* Set max width to prevent it from being too large */
+    height: auto;
+    border-radius: 8px;
+    margin-top: 1rem;  /* Adds space between text and image */
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#racing {
+    margin-bottom: 0;
+}
+
+#about {
+    margin-bottom: -3rem; /* Reduce this value */
+}
+
+
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    color: #bbb;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
