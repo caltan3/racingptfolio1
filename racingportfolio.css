@@ -21,12 +21,13 @@ h1, h2, h3 {
     letter-spacing: 1px;
 }
 
+/* Header Styling */
 header {
     background-color: #1e1e1e;
     padding: 2rem;
     display: flex;
-    justify-content: flex-start; /* Aligns the content to the left */
-    align-items: center; /* Centers the content vertically */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
     height: 200px; /* Adjust height as needed */
     text-align: center;
 }
@@ -34,10 +35,8 @@ header {
 header h1 {
     font-size: 3rem;
     text-transform: uppercase;
-    text-align: center;
     letter-spacing: 2px;
     color: #FF6F00;
-    padding-left: 1075px; /* Adjust this value to shift the name to the left */
 }
 
 /* Navigation Styling */
@@ -107,8 +106,8 @@ header h1 {
     border-radius: 8px;
     margin-top: 1rem;  /* Adds space between text and image */
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .kf1 {
@@ -118,8 +117,8 @@ header h1 {
     border-radius: 8px;
     margin-top: 1rem;  /* Adds space between text and image */
     display: block;
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #racing {
@@ -129,8 +128,6 @@ header h1 {
 #about {
     margin-bottom: -3rem; /* Reduce this value */
 }
-
-
 
 /* Footer */
 footer {
